@@ -1,4 +1,5 @@
-## This script takes reference fasta and a SNP vcf file and creates strain-specific fasta by substituting for SNPs. Substitution of SNPs removes allelic bias during read alignment. 
+## This script takes reference fasta and a SNP vcf file and creates strain-specific fasta by substituting for SNPs. 
+## Use of strain-specific genome removes allelic bias during read alignment. 
 ## This script is written for creating strain-specific reference file using Sanger MGP vcf file consiting of 18 strains. You can give the index number of strain for which SNPs need to be substituted. 
 
 import sys,os,re,fileinput
