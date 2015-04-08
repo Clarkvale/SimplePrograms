@@ -1,5 +1,6 @@
-#This python script generates shell script containing PBS directives and submit jobs to the PBS queue.
+#This python script generates shell script containing PBS directives and submit alignment related jobs to the PBS queue.
 # One PBS script is generated for each pair of fastq file. The PBS directives can be contolled within the python script.
+# This script calls BWA to perform the alignment but it can be modified to automatically generate PBS scripts for any job when you have to submit similar jobs for many files. 
 
 import os, glob
 import sys,re,fileinput
