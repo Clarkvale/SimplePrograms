@@ -1,3 +1,6 @@
+#This python script generates shell script containing PBS directives and submit jobs to the PBS queue.
+# One PBS script is generated for each pair of fastq file. The PBS directives can be contolled within the python script.
+
 import os, glob
 import sys,re,fileinput
 
